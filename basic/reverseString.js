@@ -5,7 +5,7 @@ given string input.
 
 function reverseString(str) {
   // turn string into array
-  var arr = str.split('');
+  let arr = str.split('');
   // reverse it
   arr = arr.reverse();
   // turn array back into string
