@@ -7,11 +7,11 @@ it right now though.
 
 function findLongestWord(str) {
   // turn string into array of words
-  arr = str.split(' ');
+  const arr = str.split(' ');
   // turn str into an empty string
   str = '';
   // construct loop to run arr.length times
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     // replace str with current array item if it is longer
     if (arr[i].length > str.length) {
       str = arr[i];
