@@ -9,9 +9,9 @@ Inspired by an exercise of freecodecamp.org
 
 function transformArray(arr, size) {
   // create i to specify loop length
-  var i = arr.length / size;
+  let i = arr.length / size;
   // create returning array to push into
-  var arr_two = [];
+  let arr_two = [];
   // loop over input array with push and splice
   for (i; i > 0; i--) {
     arr_two.push(arr.splice(0, size));    
