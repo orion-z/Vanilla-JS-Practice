@@ -1,6 +1,6 @@
 function factorialize(num) {
   // construct loop to run num times
-  for (var i = num; i > 0; i--) {
+  for (let i = num; i > 0; i--) {
     // factor is complete if it is being multiplied by 1
     if (i == 1) {
       return num;
