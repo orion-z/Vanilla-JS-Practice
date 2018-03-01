@@ -4,6 +4,13 @@ Kind of proud of my solution for this one.
 */
 
 function confirmEnding(str, target) {
+  /*
+  First, take only the last character(s) of
+  input str, length according to the length
+  of the target check. Now compare this substring
+  with target, and return a boolean whether they
+  match or not.
+  */
   return str.slice(-target.length) == target;
 }
 
