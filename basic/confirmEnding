@@ -1,0 +1,10 @@
+/* 
+Check if input str ends with input target.
+Kind of proud of my solution for this one.
+*/
+
+function confirmEnding(str, target) {
+  return str.slice(-target.length) == target;
+}
+
+confirmEnding("Bastian", "n");
