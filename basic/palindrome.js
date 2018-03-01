@@ -7,9 +7,9 @@ it right now though.
 
 function palindrome(str) {
   // regex check if char is NOT alphanumeric
-  var re = /\W/g;
+  const re = /\W/g;
   // regex check if char IS an underscore
-  var re1 = /_/g;
+  const re1 = /_/g;
   // filter out non-alphanumeric chars
   str = str.replace(re, '');
   // filter out underscore chars
