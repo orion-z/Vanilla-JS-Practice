@@ -3,8 +3,8 @@ Function to remove any values that evaluate to
 the boolean state of false from any given array.
 
 For some reason the filter method doesn't seem to work
-with the values NaN and null. I tried the three approaches 
-beneath but couldn't get them to work.
+with the value null, and sometimes NaN. I tried the 
+two approaches beneath but couldn't get them to work.
   
   function bouncer(arr) {
     let result = arr.filter(word => word != false || null || 0 || "" || undefined || NaN);
@@ -35,6 +35,7 @@ learning that the most elegant solutions are often the
 most simple ones and the ones with the least code.
 
 Credit to this one goes to Nina Scholz on stackoverflow.
+https://stackoverflow.com/questions/41346902/filter-null-from-an-array-in-javascript
 */
 
 function bouncer(arr) {
