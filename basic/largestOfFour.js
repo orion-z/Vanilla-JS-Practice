@@ -5,14 +5,14 @@ containing each.
 */
 function largestOfFour(arr) {
   // create a second array to push into
-  temp_arr = [];
+  let temp_arr = [];
   // outer layer, loop over the first dimension array
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     //console.log(arr[i]);
     // each number will be checked against 0
-    var highest = 0;
+    let highest = 0;
     // inner layer, loop over the second dimension arrays
-    for (var j = 0; j < arr[i].length; j++) {
+    for (let j = 0; j < arr[i].length; j++) {
       //console.log(arr[i][j]);
       if (arr[i][j] > highest) {
         highest = arr[i][j];
