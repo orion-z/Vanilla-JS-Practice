@@ -1,7 +1,8 @@
 /*
 There is probably a way more elegant way to
 code this. In the spirit of efficient time 
-management I will not look further into it though.
+management I will not look further into
+it right now though.
 */
 
 function palindrome(str) {
